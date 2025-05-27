@@ -10,4 +10,6 @@ abstract class Book{
     public function getTitle(): string{
         return $this->title;
     }
+
+    abstract public function write(): string;
 }

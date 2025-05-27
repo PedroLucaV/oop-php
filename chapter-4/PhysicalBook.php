@@ -12,4 +12,8 @@ class PhysicalBook extends Book{
     public function getWeight(): int{
         return $this->weight;
     }
+
+    public function write(): string{
+        return "{$this->title}, weight: {$this->weight}";
+    }
 }
